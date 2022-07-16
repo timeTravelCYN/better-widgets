@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.9.4/libexec/bin/yarn.js add --dev vitepress vue
+
+PATH: 
+  /Users/liudan/Library/pnpm:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/liudan/Downloads/flutter/bin:/Users/liudan/Library/Android/sdk/emulator:/Users/liudan/Library/Android/sdk/tools:/Users/liudan/Library/Android/sdk/tools/bin:/Users/liudan/Library/Android/sdk/platform-tools:/Users/liudan/go/bin:/usr/local/opt/go/libexec/bin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  14.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND masternexus.wb-intra.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+
+npm manifest: 
+  {
+    "name": "better-widgets",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "docs:dev": "vitepress dev docs",
+      "docs:build": "vitepress build docs",
+      "docs:serve": "vitepress serve docs"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
